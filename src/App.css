@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+/* Simple browser reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* Icon */
+#icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#icon img {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Basic site section */
+.features {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features__header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features__header h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+body {
+  background: #ffffff;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #2e8b57;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+footer {
+  background: #222;
+  padding: 40px;
+  text-align: center;
+  color: #d8d8d8;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+
+nav ul li a:hover {
+  background: #444;
+}
+
+.hero {
+  background-image: url("../img/dining.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__content {
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.hero__content a {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10px 5px 0;
+}
+
+.features__box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features__box:last-of-type {
+  margin-bottom: 0;
+}
+
+.features__box h5 {
+  font-size: 24px;
+}
+
+.features__box p {
+  color: #444;
+}
